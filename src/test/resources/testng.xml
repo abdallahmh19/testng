@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite" parallel="false">
+
+	<test name="ToolsQA">
+
+		<parameter name="username" value="abdallahmh19@gmail.com" />
+
+		<parameter name="password" value="123456" />
+		
+		<parameter name="chromeExeFilePath" value="C://chromedriver_win32//chromedriver.exe"></parameter>
+
+		<classes>
+			<class name="com.testng.AppTest" />
+		</classes>
+
+	</test>
+
+</suite>
